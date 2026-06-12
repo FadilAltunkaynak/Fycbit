@@ -4,46 +4,16 @@ Fycbit is a multi-service cryptocurrency exchange and trading platform
 baseline containing a Laravel backend, Next.js web client, and Node.js wallet
 service.
 
-## Smart Trade Terminal
-
 <p align="center">
-  <img src="docs/assets/smarttrade-showcase-overview.png" alt="PhoenixOS Smart Trade paper trading terminal" width="100%">
+  <a href="https://fycbit.com/">
+    <img src="docs/assets/fycbit-home-desktop.png" alt="Fycbit public website home page" width="100%">
+  </a>
 </p>
 
-The screenshot above is from the real Smart Trade terminal running with a
-dedicated showcase account. The account contains synthetic PAPER funds only,
-has no exchange API keys, and cannot represent a real customer portfolio.
-
-<table>
-  <tr>
-    <td width="58%">
-      <img src="docs/assets/smarttrade-showcase-order-panel.png" alt="Smart Trade paper order panel">
-    </td>
-    <td>
-      <strong>Terminal capabilities</strong><br><br>
-      TV and PHX chart engines<br>
-      PAPER and permission-gated LIVE modes<br>
-      Market, limit, and stop-limit order entry<br>
-      Buy and sell position sizing<br>
-      Order book and terminal panels<br>
-      Drawing tools and indicator layers<br>
-      Risk, alert, bot, and Telegram modules<br>
-      Strategy testing and replay debugger
-    </td>
-  </tr>
-</table>
-
-Smart Trade also provides order preview, submission and cancellation,
-paper-position closing, indicator and script management, backtest results,
-signal timelines, watchlists, layouts, snapshots, market screeners, heatmaps,
-news, risk controls, and replay inspection for variables, signals, order
-intents, runtime logs, data gaps, and repaint reports.
-
-> Screenshots are promotional captures from a synthetic showcase account.
-> Identifiers are obscured and no customer, credential, KYC, exchange-key, or
-> production-balance data is included.
-
-Public website: [fycbit.com](https://fycbit.com/)
+<p align="center">
+  <strong>Real public website:</strong>
+  <a href="https://fycbit.com/">fycbit.com</a>
+</p>
 
 Turkce ayrintili urun ve ozellik tanitimi:
 [Fycbit Platform Tanitimi](docs/PRODUCT_OVERVIEW_TR.md).
