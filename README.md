@@ -4,6 +4,17 @@ Fycbit is a multi-service cryptocurrency exchange and trading platform
 baseline containing a Laravel backend, Next.js web client, and Node.js wallet
 service.
 
+<p align="center">
+  <a href="https://fycbit.com/">
+    <img src="docs/assets/fycbit-home-desktop.png" alt="Fycbit public website home page" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Real public website:</strong>
+  <a href="https://fycbit.com/">fycbit.com</a>
+</p>
+
 Turkce ayrintili urun ve ozellik tanitimi:
 [Fycbit Platform Tanitimi](docs/PRODUCT_OVERVIEW_TR.md).
 
