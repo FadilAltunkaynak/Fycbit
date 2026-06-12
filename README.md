@@ -66,6 +66,12 @@ dumps, or production configuration. See [SECURITY.md](SECURITY.md).
 ## Documentation
 
 - [Installation](docs/INSTALLATION.md)
+- [Turkce ayrintili kurulum](docs/INSTALLATION_TR.md)
+- [Environment reference](docs/ENVIRONMENT_REFERENCE.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Glossary](docs/GLOSSARY.md)
+- [Backup and restore](docs/BACKUP_AND_RESTORE.md)
+- [Production readiness](docs/PRODUCTION_READINESS.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Configuration](docs/CONFIGURATION.md)
 - [Operations](docs/OPERATIONS.md)
