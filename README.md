@@ -32,7 +32,7 @@ only.
 Prerequisites: PHP 8.x, Composer, Node.js, MySQL, and Redis.
 
 ```bash
-git clone https://github.com/FadilAltunkaynak/Fycbit.git
+git clone --branch staging-publication --single-branch https://github.com/FadilAltunkaynak/Fycbit.git
 cd Fycbit
 cp .env.example apps/backend/.env
 cd apps/backend
@@ -52,6 +52,10 @@ npm run dev
 
 These are development instructions only. Review
 [Installation](docs/INSTALLATION.md) before running any service.
+
+The public baseline does not include production data, uploads, secrets, or
+compiled assets. A successful source installation is not a production
+deployment or custody approval.
 
 ## Security
 
@@ -73,4 +77,3 @@ dumps, or production configuration. See [SECURITY.md](SECURITY.md).
 No broad public-use license has been granted yet. See [LICENSE.md](LICENSE.md)
 and [LICENSE_DECISION_REQUIRED.md](LICENSE_DECISION_REQUIRED.md). Third-party
 components remain governed by their respective licenses.
-
