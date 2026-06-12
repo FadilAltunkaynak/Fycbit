@@ -1,0 +1,47 @@
+########################################
+# GLOBAL
+########################################
+php-version = "8.3"
+
+########################################
+# SOURCE (file discovery & excludes)
+########################################
+[source]
+paths = [
+  "app/",
+  "modules/",
+  "routes/"
+]
+includes = ["vendor/"]
+excludes = [
+  "vendor/",
+  "storage/",
+  "bootstrap/cache/",
+  "node_modules/",
+  "public/"
+]
+
+########################################
+# ANALYZER (type analysis)
+########################################
+[analyzer]
+baseline = "analyzer-baseline.toml"
+baseline-variant = "loose"
+ignore = [
+  # { code = "some-code", in = "tests/" }
+]
+
+########################################
+# LINTER (style & quality)
+########################################
+[linter]
+baseline = "lint-baseline.toml"
+baseline-variant = "loose"
+
+[linter.rules]
+too-many-properties      = { enabled = false }
+excessive-parameter-list = { enabled = false }
+cyclomatic-complexity    = { enabled = false }
+ambiguous-function-call  = { enabled = false }
+literal-named-argument   = { enabled = false }
+halstead                 = { effort-threshold = 7000 }

@@ -1,0 +1,13 @@
+{
+    "name": "BlogNews",
+    "alias": "blognews",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\BlogNews\\Providers\\BlogNewsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

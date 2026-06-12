@@ -1,0 +1,13 @@
+{
+    "name": "DemoTrade",
+    "alias": "demotrade",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\DemoTrade\\Providers\\DemoTradeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "IcoLaunchpad",
+    "alias": "icolaunchpad",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\IcoLaunchpad\\Providers\\IcoLaunchpadServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

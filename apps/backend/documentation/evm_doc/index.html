@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tradexpro EVM Network Support (Addon)</title>
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+    <link rel="shortcut icon" href="assets/images/fav.png">
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/black-tie/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/jquery.tocify.css" rel="stylesheet">
+    <link href="assets/css/prettify.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/rainbow/themes/github.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rainbowlines/theme.css" media="screen" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link href="../assets/ico/" rel="shortcut icon">
+    <link href="../assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="../assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="../assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="../assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="margin-bottom:120px;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">EVM Network Support (Addon) <small>v1.0</small></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="index.html">Home</a></li> -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <div class="container-fluid" style="margin-top:50px;">
+        <div class="row">
+            <div class="tocify col-sm-3 col-md-3">
+                <div id="toc">
+                    <h4 class="sidebar-title">Web</h4>
+                    <div id="web"></div>
+                    <br><br>
+                    <!--<h4 class="sidebar-title">App</h4>-->
+                    <div id="app"></div>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+            <div class="col-sm-9 col-md-9">
+                <div class="section">
+                    <h2 class="title-tag">Introduction</h2>
+
+                    <h3 class="title-tag">Details</h3>
+                    <div class="well">
+                        <p class="">
+                            With this EVM Network Support Addon, your Tradexpro Exchange
+                            will support all EVM based Network. Ethereum Blockchain with
+                            Native and ERC20 tokens will be supported. BNB Smart Chain (BSC) Blockchain
+                            with Native and BEP20 tokens will be supported. TRON Blockchain with native and TRC20 tokens
+                            will be supported. Polygon (MATIC) Blockchain with native and Polygon tokens
+                            will be supported. So, you won't have to
+                            rely on Coin Payment or BitGo for EVM based native coins and tokens.
+                            No third party API needed for EVM based coins and tokens. 
+                        <p>
+                            <a target="_blank" href="https://tradexpro.xyz/">Visit Our Demo</a>
+                            <br />
+                        </p>
+                    </div>
+                    <hr>
+
+                    <h3 class="title-tag">Getting Started</h3>
+                    <div class="well">
+                        The application has a few system requirements, so you will need to make sure your server meets the following requirements:
+                        <p>Admin side requirement : </p>
+                        <ol>
+                            <li>It will run with Tradexpro Exchange Main Project, So everything is same as main project </li>
+
+                        </ol>
+                        <hr>
+                        <p>User side requirement : </p>
+                        <ol>
+                            <li>Nodejs 16.16.0 </li>
+                            <li>Yarn 1.22.19 or above</li>
+                            <li>Nginx</li>
+                        </ol>
+                    </div>
+
+                    <hr>
+
+                </div>
+                <hr>
+                <div class="section">
+                    <h2 class="title-tag">Key Features</h2>
+                    <div class="well">
+                        <p> <b>Admin Side Developed With <span style="color: orangered">LARAVEL</span></b> </p>
+                        <p> <b>User Side Developed With <span style="color: orange">Next Js</span></b> </p>
+                        <ul>
+                            <li>Support all EVM base Network</li>
+                            <li>Ethereum Blockchain with Native and ERC20 token supported</li>
+                            <li>BNB Smart Chain (BSC) Blockchain with Native and BEP20 token supported</li>
+                            <li>TRON Blockchain with native and TRC20 token supported</li>
+                            <li>Polygon (MATIC) Blockchain with native and Polygon token supported</li>
+                            <li>System wallet management</li>
+                            <li>Admin coin pull management</li>
+                            <li>Coin with multiple network supported</li>
+                            <li>Secure wallet management</li>
+                            <li>Use own secure encryption for wallet key</li>
+                            <li>Handle blockchain deposit carefully</li>
+                            <li>No third party api needed for ENM base coin and token</li>
+                            <li>Secure Blockchain withdrawal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="title-tag">Files in Plugin</h2>
+                    <div class="well">
+                        <p style="font-weight: bold; color: red;">Purchase our main product to use this 'EVM Network Support' addon</p>
+                        <p>'EVM Network Support' addon is bundled with files:</p>
+                        <ul>
+                            <li>Evm-Wallet.zip</li>
+                            <li>EVM-Doc.zip</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="section">
+                	<h2 class="title-tag"> Installation Process</h2>
+                    <div class="well">
+                        <ul class="">
+                            <li>We provide free installation service. if you get problem contact us</li>
+                            <li><b class="text-danger">First make a Backup file and Database of current version</b></li>
+                            <li>Replace the Tradexpro Exchange Backend project with the Backend project of EVM Addon</li>
+                            <li>Then Replace the Tradexpro Exchange Frontend project with the Frontend project of EVM Addon</li>
+                            <li>Then navigate to the Backend project directory</li>
+                            <li>And run the command "composer install --ignore-platform-reqs"</li>
+                            <li>Then run the command "composer dumpa"</li>
+                            <p>Then run the command "php artisan migrate --seed" to migrate new database table.</p>
+                            <img src="assets/images/migration.png" />
+
+                            <p>Then run the command "php artisan command:existingwalletaddress" to encrypt existing user's wallet private key.</p>
+                            <img src="assets/images/wallet-eccrypt.png">
+
+                            <p>Then run the command "php artisan command:updatesystemwallet" to create System Wallets.</p>
+                            <img src="assets/images/system-wallet.png">
+                            <br><br>
+
+                            
+                            <li>
+                                <p><b>Create a new sub domain for Evm addon.<br>
+                                    Let's assume that your domain name is example.com <br>
+                                      Then you need a sub domain like evm.example.com <br>
+                                      Make sure that this sub-domain is poined to your server ip.
+                                </b></p>
+                                <p><b>Navigate to the directory to /var/www/ </b></p>
+                                <p><b>Command: </b></p>
+                                <p class="text-primary"><b>cd /var/www/</b></p>
+                                <p class="text-primary"><b>mkdir evm</b> (evm is the folder name)</p>
+
+                                <p><b>Extract the EvmWallet.zip file and this will create a folder named EvmWallet. <br> 
+                                      Move the contents of this folder to the directory /var/www/evm/ 
+                                </b></p>
+                            </li>
+                            <li>
+                                <p><b> Now go to the evm folder</b></p>
+                                <p><b>Command: </b></p>
+                                <p class="text-primary"><b>cd /var/www/evm/</b></p>
+                                <p class="text-primary"><b>cp .env.example .env</b></p>
+                                <p class="text-primary"><b>nano .env</b></p>
+                                <p><b>Inside this env file, as displayed on the screen below,<br>
+                                    put your MySQL Username, Password and Database names at the marker 1,2 and 3 respectively. <br>
+                                    On the marker 4, put an API secret key.  
+                                </b></p>
+                                <img src="assets/images/evmEnv.png">
+                                <p><b>Then run the following commands on the same directory</b></p>
+                                <p class="text-primary"><b>yarn install</b></p>
+                                <p class="text-primary"><b>yarn build</b></p>
+                                <p><b>Then you need to keep the command "yarn start" runnung on the same directory.<br>
+                                      You can use pm2 to keep that command running.<br>
+                                      On the same /var/www/evm/ directory, run the following commands.
+                                    </b></p>
+                                <p class="text-primary"><b>sudo npm install pm2 -g</b></p>
+                                <p class="text-primary"><b>pm2 start yarn --interpreter bash --name EvmWallet -- start</b></p>
+                            </li>
+                            <li>
+                                <p><b> Then go to this path  </b></p>
+                                <p><b>Command: </b></p>
+                                <p class="text-primary"><b>cd /etc/nginx/sites-available/</b></p>
+                                <p class="text-primary"><b>nano evmwallet</b></p>
+                                <p><b> in the file write down these code </b></p>
+                                
+                                <pre class="text-primary"><b>
+                                    server {
+                                        root /var/www/evm/;
+                                        index index.php index.html index.htm index.nginx-debian.html;
+                                        server_name evm.example.com;
+                                
+                                        location / {
+                                          proxy_pass    http://127.0.0.1:3040;
+                                        }
+                                
+                                        }
+                                </b></pre>
+
+                                <p><b> Then run this command </b></p>
+                                <p class="text-primary"><b>sudo ln -s /etc/nginx/sites-available/evmwallet /etc/nginx/sites-enabled/</b></p>
+                                <p class="text-primary"><b>service nginx reload</b></p>
+                                <p class="text-primary"><b>service nginx reload</b></p>
+                            </li>
+                        
+                            
+                            <li>
+                                <p><b>Then Add the following 2 keys in Tradexpro Backend ".env" file</b></p>
+                                <p class="text-primary"><b>EVM_APP_HOST=url/to/your/EvmWallet (example: https://evm.example.com/v1 )</b></p>
+                                <p class="text-primary"><b>EVM_APP_SECRET=yout_secret_key_from_EvmWallet_evm</b></p>
+                            </li>
+                            
+                            <li>
+                                <p><b>And Add the following 2 keys in Tradexpro Fronted ".env" file</b></p>
+                                <p class="text-primary"><b>NEXT_PUBLIC_EVM_APP_HOST="url/to/your/EvmWallet" (example: https://evm.example.com/v1 )</b></p>
+                                <p class="text-primary"><b>NEXT_PUBLIC_EVM_APP_SECRET="yout_secret_key_from_EvmWallet_evm"</b></p>
+                            </li>
+
+                            <li>
+                                <p><b>Now navigate to the directory where your Frontend project is located. And run the following commands</b></p>
+                                <p class="text-primary"><b>yarn install</b></p>
+                                <p class="text-primary"><b>yarn installs</b></p>
+                                <p><b>Then if your Frontend project was running on pm2,<br>
+                                    run "pm2 restart all" on this same directory to restart the Frontend.</b></p>
+                            </li>
+
+                        </ul>
+                    </div>
+                   <hr>
+                </div>
+                <hr>
+                <hr>
+                <div class="section">
+                    <h2 class="title-tag">Admin Panel</h2>
+                    <div class="well">
+                        <li>
+                            <b>Admin panel is developed with Laravel 8 </b>
+                        </li>
+                        <li>
+                            <b>MySql database is used here.</b>
+                        </li>
+                    </div>
+                    <h3 class="title-tag">Supported Network</h3>
+                    <div class="well">
+                        <li>
+                            <b>Supported Network List</b>
+                            <br>
+                            <br>
+                            <img src="assets/images/support-network.png" alt="" class="img-responsive"><br>
+                        </li>
+                    </div>
+                    <hr>
+                    <h3 class="title-tag">Network</h3>
+                    <div class="well">
+                        <li>
+                            <b>Network List.</b>
+                            <img src="assets/images/networks.png" alt="" class="img-responsive"><br>
+                        </li>
+                        <!-- <li>
+                            <b>Here is coin setting page, you can set coin trade status, minimum and maximum trade limit and buy , sell fees from here</b>
+                            <img src="assets/images/admin/coin_settin.png" alt="" class="img-responsive"><br>
+                        </li> -->
+                    </div>
+                    <hr>
+                    <h3 class="title-tag">Currency</h3>
+                    <div class="well">
+                        <li>
+                            <b>Currency List.</b>
+                            <img src="assets/images/coins.png" alt="" class="img-responsive"><br>
+                        </li>
+                    </div>
+                    <hr>
+                    <h3 class="title-tag">Coin Network</h3>
+                    <div class="well">
+                        <li>
+                            <b>Coin Network list.</b>
+                            <img src="assets/images/coin_network.png" alt="" class="img-responsive"><br>
+                        </li>
+                    </div>
+                    <hr>
+                </div>
+                <div class="section">
+                    <h2 class="title-tag">User Panel </h2>
+                    <p><b>Developed with Next Js</b></p>
+                    <hr>
+                    <h3 class="title-tag">User Wallet Deposit Page</h3>
+                    <div class="well">
+                        <li>
+                            <b>This is user deposit page</b>
+                            <img src="assets/images/front-deposit.png" alt="" class="img-responsive"><br>
+                        </li>
+                    </div>
+                    <hr>
+                    <hr>
+                    <h3 class="title-tag">User Withdrawal Page</h3>
+                    <div class="well">
+                        <li>
+                            <b>This is withdrawal page</b>
+                            <img src="assets/images/front-withdrawal.png" alt="" class="img-responsive"><br>
+                        </li>
+                    </div>
+                    <hr>
+                </div>
+
+                    <div class="section">
+                        <h2 class="title-tag">Release log</h2>
+                        <div class="well">
+                            <pre>
+                                Version 1.0 ( Septembar 2023 )
+                            </pre>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h2 class="title-tag">Thank You</h2>
+                        <div class="well">
+                            <p>
+                                Again, thank you for purchasing Tradexpro EVM Network Support (Addon). If you need some help, or support please use email
+                                or contact form via codecanyon <a href="https://codecanyon.net/user/itechtheme" target="_blank">Profile
+                                site</a>.
+                            </p>
+                            <p>
+                                Hope you happy with the Tradexpro EVM Network Support (Addon) , system, all the best with your business.
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="section">
+                        <p class="copyright">
+                            Copyright © 2023 . All rights reserved <a href="https://tradexpro-exchange.cdibrandstudio.com" target="_blank">Tradexpro Exchange</a>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+    </div>
+    <!--/.fluid-container-->
+    <!-- Le javascript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/rainbow/rainbow.min.js"></script>
+    <script src="assets/js/rainbow/language/generic.js"></script>
+    <script src="assets/js/rainbow/language/html.js"></script>
+    <script src="assets/js/rainbow/language/css.js"></script>
+    <script src="assets/js/rainbow/language/javascript.js"></script>
+    <script src="assets/js/rainbowlines/rainbow.linenumbers.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.tocify.min.js"></script>
+    <script src="assets/js/prettify.js"></script>
+    <script>
+        $(function () {
+
+            $("#web").tocify({
+                selectors: "h2,h3",
+                scrollTo: 60,
+                highlightOffset: 60,
+                extendPage: true
+            });
+            $("#app").tocify({
+                selectors: ".title-tag2",
+                scrollTo: 60,
+                highlightOffset: 60,
+                extendPage: true
+            });
+
+            prettyPrint();
+
+            $(".optionName").popover({
+                trigger: "hover",
+                container: "body"
+            });
+
+            $("a[href='#']").click(function (event) {
+
+                event.preventDefault();
+
+            });
+
+            Rainbow.color();
+        });
+    </script>
+
+</body>
+
+</html>

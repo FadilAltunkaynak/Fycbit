@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/icolaunchpad",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\IcoLaunchpad\\Providers\\IcoLaunchpadServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\IcoLaunchpad\\": ""
+        }
+    }
+}

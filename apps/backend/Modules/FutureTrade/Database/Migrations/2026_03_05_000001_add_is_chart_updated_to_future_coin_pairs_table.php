@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddIsChartUpdatedToFutureCoinPairsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('future_coin_pairs', function (Blueprint $table) {
+            if (! Schema::hasColumn('future_coin_pairs', 'is_chart_updated')) {
+                $table->tinyInteger('is_chart_updated')->default(0)->after('status');
+            }
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('future_coin_pairs', function (Blueprint $table) {
+            if (Schema::hasColumn('future_coin_pairs', 'is_chart_updated')) {
+                $table->dropColumn('is_chart_updated');
+            }
+        });
+    }
+}

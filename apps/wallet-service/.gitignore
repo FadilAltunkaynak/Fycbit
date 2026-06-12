@@ -1,0 +1,13 @@
+/node_modules
+/build
+.env
+yarn.lock
+test.js
+deploy.sh
+.env.core
+.env.evm
+test.ts
+yarn-error.log
+test*.json
+test*.log
+/.vscode

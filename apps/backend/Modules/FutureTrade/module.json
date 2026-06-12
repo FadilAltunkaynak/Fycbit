@@ -1,0 +1,13 @@
+{
+    "name": "FutureTrade",
+    "alias": "futureTrade",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\FutureTrade\\Providers\\FutureTradeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

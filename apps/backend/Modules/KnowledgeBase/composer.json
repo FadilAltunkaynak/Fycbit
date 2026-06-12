@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/knowledgebase",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\KnowledgeBase\\Providers\\KnowledgeBaseServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KnowledgeBase\\": ""
+        }
+    }
+}
