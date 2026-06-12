@@ -4,6 +4,9 @@ Fycbit is a multi-service cryptocurrency exchange and trading platform
 baseline containing a Laravel backend, Next.js web client, and Node.js wallet
 service.
 
+Turkce ayrintili urun ve ozellik tanitimi:
+[Fycbit Platform Tanitimi](docs/PRODUCT_OVERVIEW_TR.md).
+
 > This software is not financial advice. Cryptocurrency trading and custody
 > involve substantial risk. This public baseline is not represented as
 > production-ready, audited, or suitable for custody of real assets.
@@ -72,6 +75,7 @@ dumps, or production configuration. See [SECURITY.md](SECURITY.md).
 - [Glossary](docs/GLOSSARY.md)
 - [Backup and restore](docs/BACKUP_AND_RESTORE.md)
 - [Production readiness](docs/PRODUCTION_READINESS.md)
+- [Feature matrix](docs/FEATURE_MATRIX.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Configuration](docs/CONFIGURATION.md)
 - [Operations](docs/OPERATIONS.md)

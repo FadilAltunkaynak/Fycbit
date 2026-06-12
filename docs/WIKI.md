@@ -7,6 +7,8 @@
 - [Glossary](GLOSSARY.md)
 - [Backup and restore](BACKUP_AND_RESTORE.md)
 - [Production readiness](PRODUCTION_READINESS.md)
+- [Turkce platform tanitimi](PRODUCT_OVERVIEW_TR.md)
+- [Feature matrix](FEATURE_MATRIX.md)
 - [Architecture](ARCHITECTURE.md)
 - [Configuration](CONFIGURATION.md)
 - [Operations](OPERATIONS.md)
